@@ -9,6 +9,6 @@ export class AppInsightsClient {
         }
     }
 
-    private static _client = new appInsights.TelemetryClient("67c87754-5df2-4f1c-b112-0ed62406abbf");
+    private static _client = new appInsights.TelemetryClient("26ce3bc8-509f-4413-bf4f-a593a41f9d9f");
     private static _enableTelemetry = vscode.workspace.getConfiguration("telemetry").get<boolean>("enableTelemetry");
 }
